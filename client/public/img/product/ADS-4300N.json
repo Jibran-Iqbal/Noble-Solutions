@@ -1,0 +1,10 @@
+{
+    "productName": "ADS-4300N Desktop Document Scanner High-speed network desktop scanner",
+    "category": "scanners",
+    "subCategory": "desktop scanners",
+    "productImages": [
+        "\\img\\product\\ADS-4300N-1.jpg",
+        "\\img\\product\\ADS-4300N-2.jpg"
+    ],
+    "description": "2-sided scan up to 80 images per minute\n80 sheet Automatic Document Feeder (ADF)\nMobile Connect App\nDriver compatibility with TWAIN (Win, macOS), WIA, ISIS, Linux SAN\nAdvanced image processing and batch scan\nUltrasonic Multifeed Sensor, Separation Switch"
+}

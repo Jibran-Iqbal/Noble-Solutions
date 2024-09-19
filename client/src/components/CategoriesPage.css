@@ -1,0 +1,29 @@
+.subcategory-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subcategory-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subcategory-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.subcategory-container {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.subcategory-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

@@ -1,0 +1,39 @@
+/* Custom styles for checkboxes */
+.form-check-input.custom-checkbox {
+    width: 1em; /* Reduced size */
+    height: 1em; /* Reduced size */
+    background-color: #fff;
+    border: 1px solid #141D37;
+    border-radius: 0.25em;
+    cursor: pointer;
+    appearance: none; /* Remove default styles */
+    -webkit-appearance: none; /* For Safari */
+  }
+  
+  .form-check-input.custom-checkbox:checked {
+    background-color: #141D37;
+    border-color: #141D37;
+  }
+  
+  .form-check-input.custom-checkbox:checked::before {
+    content: '';
+    display: block;
+    width: 0.35em; /* Smaller size */
+    height: 0.7em; /* Smaller size */
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+    margin-left: 0.25em; /* Center the tick */
+    margin-top: 0.1em; /* Center the tick */
+  }
+  
+  .form-check-input.custom-checkbox:focus {
+    border-color: #141D37;
+    box-shadow: 0 0 0 0.2rem rgba(20, 29, 55, 0.25);
+  }
+  
+  .form-check-label {
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
